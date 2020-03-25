@@ -1,22 +1,125 @@
+@font-face {
+  font-family: 'Lucida Grande';
+  src: url('../font/lucida_grande-webfont.woff2') format('woff2'),
+       url('../font/lucida_grande-webfont.woff') format('woff'),
+       url('../font/lucida_grande.ttf') format('ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
 * {
   box-sizing: border-box;
 }
 body {
   margin: 0;
+  background-color: #3399CC;
+  border: 15px solid #2B81AC;
+  color: #fff;
+  font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
 }
-  
 .container {
   margin: 0 auto;
-  max-width: 700px;
+  max-width: 900px;
   padding: 15px;
 }
-  
-a {
-  transition: all 0.2s ease-in;
+main {
+  background-color: #fff;
+  margin-bottom: 30px;
 }
-a:hover,
-a:focus,
-a:active {
-    
+
+/* main:hover  {
+  cursor: default;
+}  */
+
+ul {
+  padding: 0;
+  margin: 0;
+  font-size: 0;
 }
-  
+ul:hover {
+  cursor: default;
+}
+li {
+  display: inline-block;
+  background-color: lightseagreen;
+  margin: 0.5%;
+  font-size: 24px;
+  text-align: center;
+  transition: all .1s ease-in;
+}
+
+.title {
+  margin-bottom: 15px;
+}
+.subtitle {
+  margin-bottom: 20px;
+  color: rgba(255,255,255,.8);
+}
+.lisbon,
+.francisco {
+  width: 49%;
+}
+.paris,
+.belgrade,
+.moscow,
+.tel-aviv,
+.cair,
+.york,
+.delhi,
+.tokyo {
+  width: 24%;
+}
+.sydney {
+  width: 99%;
+}
+
+ul:hover li:not(:hover) {
+  opacity: .5;
+}
+
+
+/* //////////////// */
+.lisbon {
+  background-color: #3399CC;
+}
+.paris {
+  background-color: #33CCCC;
+}
+.belgrade {
+  background-color: #996699;
+}
+.moscow {
+  background-color: #C24747;
+}
+.tel-aviv {
+  background-color: #E2674A;
+}
+.cair {
+  background-color: #FFCC66;
+}
+.york {
+  background-color: #99CC99;
+}
+.delhi {
+  background-color: #669999;
+}
+.francisco {
+  background-color: #CC6699;
+}
+.tokyo {
+  background-color: #339966;
+}
+.sydney {
+  background-color: #666699;
+}
+
+
+
+
+
+/* //////////// */
+footer {
+  margin-bottom: 100px;
+}
