@@ -28,11 +28,6 @@ main {
   background-color: #fff;
   margin-bottom: 30px;
 }
-
-/* main:hover  {
-  cursor: default;
-}  */
-
 ul {
   padding: 0;
   margin: 0;
@@ -78,8 +73,6 @@ li {
 ul:hover li:not(:hover) {
   opacity: .5;
 }
-
-
 /* //////////////// */
 .lisbon {
   background-color: #3399CC;
@@ -114,11 +107,6 @@ ul:hover li:not(:hover) {
 .sydney {
   background-color: #666699;
 }
-
-
-
-
-
 /* //////////// */
 footer {
   margin-bottom: 100px;
