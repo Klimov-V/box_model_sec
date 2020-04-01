@@ -18,7 +18,7 @@ body {
   border: 15px solid #2B81AC;
   color: #fff;
   font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
-  height: 100vh;
+  min-height: 100vh;
 }
 .container {
   margin: 0 auto;
