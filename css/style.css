@@ -28,15 +28,15 @@ main {
   background-color: #fff;
   margin-bottom: 30px;
 }
-ul {
+.list {
   padding: 0;
   margin: 0;
   font-size: 0;
 }
-ul:hover {
+.list:hover {
   cursor: default;
 }
-li {
+.list__item  {
   display: inline-block;
   background-color: lightseagreen;
   margin: 0.5%;
@@ -52,21 +52,15 @@ li {
   margin-bottom: 20px;
   color: rgba(255,255,255,.8);
 }
-.lisbon,
-.francisco {
+
+.list__item--1-2 {
   width: 49%;
 }
-.paris,
-.belgrade,
-.moscow,
-.tel-aviv,
-.cair,
-.york,
-.delhi,
-.tokyo {
+
+.list__item--1-4 {
   width: 24%;
 }
-.sydney {
+.list__item--1-1 {
   width: 99%;
 }
 
@@ -74,37 +68,48 @@ ul:hover li:not(:hover) {
   opacity: .5;
 }
 /* //////////////// */
-.lisbon {
+
+.list__item--curiousBlue {
   background-color: #3399CC;
 }
-.paris {
+
+.list__item--turquoise {
   background-color: #33CCCC;
 }
-.belgrade {
+
+.list__item--strikemaster {
   background-color: #996699;
 }
-.moscow {
+
+.list__item--crail {
   background-color: #C24747;
 }
-.tel-aviv {
+
+.list__item--terracotta {
   background-color: #E2674A;
 }
-.cair {
+
+.list__item--goldenTainoi {
   background-color: #FFCC66;
 }
-.york {
+
+.list__item--deYork {
   background-color: #99CC99;
 }
-.delhi {
+
+.list__item--patina {
   background-color: #669999;
 }
-.francisco {
+
+.list__item--hopbush {
   background-color: #CC6699;
 }
-.tokyo {
+
+.list__item--seaGreen {
   background-color: #339966;
 }
-.sydney {
+
+.list__item--kimberly {
   background-color: #666699;
 }
 /* //////////// */
